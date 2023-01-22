@@ -14,7 +14,6 @@ time.sleep(2)
 user_ele = driver.find_element(By.NAME, "UserName")
 print(user_ele.is_displayed())
 print(user_ele.is_enabled())
-
 pwd_ele = driver.find_element(By.NAME, "Password")
 print(pwd_ele.is_displayed())
 print(pwd_ele.is_enabled())
